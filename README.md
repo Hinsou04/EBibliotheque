@@ -31,6 +31,48 @@ Developper une API REST securisee mettant en oeuvre les operations CRUD, les rel
 </ul>
 <h3>Tableau de bord</h3>
 <ul>
+  <li>Total des livres</li>
   <li>Statistique sur les livres les plus empruntes</li>
-  
+  <li>Liste des emprunts en retard</li>
+  <li>Total des Membres</li>
+  <li>Liste des membres actifs </li>
+  <li>Nombre d'emprunt en cours</li>
+  <li>Nombre d'emprunt en retard</li>
+  <li>Total des categorie des livres</li>
 </ul>
+<table>
+  <thead>
+    <tr>
+      <th>Composant</th>
+      <th>Technologie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Langage</td>
+      <td>Java 17+</td>
+    </tr>
+    <tr>
+      <td>Framework</td>
+      <td>Spring Boot<br> Spring MVC, spring Data JPA, spring Security</br></td>
+    </tr>
+  <tr>
+    <td>Base de donnees</td>
+    <td>MySQL</td>
+  </tr>
+  <tr>
+    <td>Securite</td>
+    <td>Spring Security + JWT</td>
+  </tr>
+  <tr>
+    <td>Tests</td>
+    <td>JUinit</td>
+  </tr>
+  <tr>
+    <td>Build</td>
+    <td>Maven</td>
+  </tr>
+  </tbody>
+</table>
+<h2>Architecture</h2>
+
